@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                 "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.pp.test.bo.Inspection" table="inspection">
+		<id name="unitId" type="java.lang.Integer" >
+			<generator class="native"/>
+		</id>
+		
+		<property name="id" />
+		<property name="name"/>
+		<property name="waterlevel" />
+		<property name="pressure" />
+		<property name="battery" />
+		<property name="transformer" />
+		<property name="voltage" />
+		<property name="electric" />
+		<property name="electricAA" />
+		<property name="powerFactor" />
+		<property name="chilledWater" />
+		<property name="chilledWaterA" />
+		<property name="freezingWaterPressure" />
+		<property name="freezinginletPressure" />
+		<property name="coolingWaterTemperature" />
+		<property name="coolingInletTemperature" />
+		<property name="coolingWaterPressure" />
+		<property name="coolingInletPressure" />
+		<property name="lineVoltage" />
+		<property name="lineCurrent" />
+		<property name="motorTemperature" />
+		<property name="guideVane" />
+		<property name="oilTemperature" />
+		<property name="leaveOil" />
+		<property name="leaveExhaustPressure" />
+		<property name="inspiratory" />
+		<property name="inspiratory1" />
+		<property name="inspiratory2" />
+		<property name="evaporating" />
+		<property name="evaporating1" />
+		<property name="evaporating2" />
+		<property name="exhaustPressure" />
+		<property name="exhaustPressure1" />
+		<property name="exhaustPressure2" />
+		<property name="condensing" />
+		<property name="condensing1" />
+		<property name="condensing2" />
+		<property name="exhaustTemperature" />
+		<property name="exhaustTemperature1" />
+		<property name="exhaustTemperature2" />
+		<property name="fuelPressure" />
+		<property name="fuelPressure1" />
+		<property name="fuelPressure2" />
+		<property name="pressureDifference" />
+		<property name="pressureDifference1" />
+		<property name="pressureDifference2" />
+		<property name="temperature" />
+		<property name="humidity" />
+		<property name="abnormalNormal" />
+		<property name="reason" />
+		<property name="patrolMan" />
+		<property name="patrolTime" />
+		<property name="a" />
+		<property name="b" />
+		<property name="c" />
+		<property name="d" />
+	</class>
+</hibernate-mapping>

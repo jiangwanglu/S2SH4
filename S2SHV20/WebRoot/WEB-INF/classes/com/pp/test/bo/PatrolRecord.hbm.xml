@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                 "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+        
+<hibernate-mapping>
+	<class name="com.pp.test.bo.PatrolRecord" table="patrolrecord">
+		<id name="id" column="java.lang.Integer" >
+			<generator class="native"/>
+		</id>
+		<property name="unitid" />
+		<property name="type" />
+		<property name="type1" />
+		<property name="type2" />
+		<property name="type3" />
+		<property name="type4" />
+		<property name="type5" />
+		<property name="type6" />
+		<property name="type7" />
+		<property name="type8" />
+		<property name="type9" />
+		<property name="date" />
+		<property name="day" />
+	</class>
+</hibernate-mapping>
